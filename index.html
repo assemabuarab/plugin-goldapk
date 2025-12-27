@@ -2,15 +2,15 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8" />
-  <title>Multi_TikTok_Plugin_3.0</title>
+  <title>Multi_TikTok_Plugin_v3.0</title>
   
   <!-- Favicon -->
   <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-  <!-- Meta tags الأساسية -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+   <!-- Meta tags الأساسية -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
   <meta name="robots" content="index,follow"/>
-  <meta name="description" content="Multi_TikTok_Plugin_3.0 is a modified Instagram app with features like downloading photos, hiding online status, and more."/>
+  <meta name="description" content="Multi_TikTok_Plugin_v3.0 is a modified Instagram app with features like downloading photos, hiding online status, and more."/>
   <meta name="keywords" content="TikTok Plus, Multi TikTok Plugin, modified TikTok, تحميل مساعد التيك توك, تنزيل TikTok Plus, تيك توك بلس معدل"/>
 
   <!-- Open Graph (Facebook, WhatsApp, Telegram) -->
@@ -18,37 +18,42 @@
   <meta property="og:site_name" content="GoldFire"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:url" content="https://plugin.goldapk.app"/>
-  <meta property="og:title" content="Multi_TikTok_Plugin_3.0"/>
-  <meta property="og:description" content="Download Multi_TikTok_Plugin_3.0 – A powerful modified TikTok app with features like no watermark video download, ghost mode, and ad removal."/>
+  <meta property="og:title" content="Multi_TikTok_Plugin_v3.0"/>
+  <meta property="og:description" content="Download Multi_TikTok_Plugin_v3.0 – A powerful modified TikTok app with features like no watermark video download, ghost mode, and ad removal."/>
   <meta property="og:image" content="app_icon2.png"/>
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image"/>
   <meta name="twitter:site" content="@GoldFire"/>
-  <meta name="twitter:title" content="Multi_TikTok_Plugin_3.0"/>
-  <meta name="twitter:description" content="Download Multi_TikTok_Plugin_3.0 – A powerful modified Instagram with unique features."/>
+  <meta name="twitter:title" content="Multi_TikTok_Plugin_v3.0"/>
+  <meta name="twitter:description" content="Download Multi_TikTok_Plugin_v3.0 – A powerful modified Instagram with unique features."/>
   <meta name="twitter:image" content="app_icon2.png"/>
   <meta name="twitter:url" content="https://plugin.goldapk.app"/>
 
   <!-- Google -->
-  <meta itemprop="name" content="Multi_TikTok_Plugin_3.0"/>
-  <meta itemprop="description" content="Download Multi_TikTok_Plugin_3.0 – A powerful modified Instagram with unique features."/>
+  <meta itemprop="name" content="Multi_TikTok_Plugin_v3.0"/>
+  <meta itemprop="description" content="Download Multi_TikTok_Plugin_v3.0 – A powerful modified Instagram with unique features."/>
   <meta itemprop="image" content="app_icon2.png"/>
-  
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&display=swap" rel="stylesheet">
+
   <!-- الخطوط -->
   <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   
   <!-- أيقونات -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   
-  <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-J2QPHK32R5"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-J2QPHK32R5');
-  </script>
+  
+    
+  
+ <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-J2QPHK32R5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-J2QPHK32R5');
+</script>
   
   <style>
     :root {
@@ -63,30 +68,22 @@
       --text-gray: #cccccc;
       --shadow: 0 4px 12px rgba(0,0,0,0.2);
       --transition: all 0.3s ease;
-      --border-radius: 16px;
-      --border-radius-sm: 12px;
     }
     
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      -webkit-tap-highlight-color: transparent;
-    }
-    
-    html {
-      scroll-behavior: smooth;
     }
     
     body {
       font-family: 'Tajawal', sans-serif;
       font-weight: 500;
-      line-height: 1.6;
+      line-height: 1.7;
       color: var(--text-light);
-      background: #000;
+      background: linear-gradient(135deg, #0a0a0a 0%, #000 100%);
       min-height: 100vh;
       position: relative;
-      overflow-x: hidden;
     }
     
     [data-lang] { display: none; }
@@ -109,13 +106,11 @@
     
     .loader-content {
       text-align: center;
-      padding: 30px 20px;
-      border-radius: var(--border-radius);
+      padding: 30px;
+      border-radius: 16px;
       background: rgba(30, 30, 30, 0.95);
       box-shadow: var(--shadow);
       border: 2px solid var(--gold-primary);
-      max-width: 90%;
-      margin: 0 20px;
     }
     
     .loader-logo {
@@ -123,7 +118,6 @@
       height: 70px;
       margin-bottom: 15px;
       animation: pulse 1.5s infinite;
-      border-radius: 12px;
     }
     
     .loader-text {
@@ -158,19 +152,19 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 15px;
-      background: rgba(10, 10, 10, 0.95);
-      backdrop-filter: blur(10px);
+      padding: 12px 20px;
+      background: linear-gradient(135deg, var(--dark-bg) 0%, #000 100%);
+      box-shadow: var(--shadow);
       position: sticky;
       top: 0;
-      z-index: 1000;
+      z-index: 100;
       border-bottom: 2px solid var(--gold-primary);
     }
     
     .logo {
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 8px;
       color: var(--gold-light);
       font-weight: 700;
       font-size: 18px;
@@ -178,7 +172,7 @@
     }
     
     .logo-icon {
-      font-size: 22px;
+      font-size: 20px;
       color: var(--gold-light);
     }
     
@@ -188,10 +182,10 @@
     }
     
     .lang-btn {
-      background: rgba(212, 175, 55, 0.1);
-      border: 1px solid rgba(212, 175, 55, 0.3);
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid #444;
       color: var(--gold-light);
-      padding: 8px 15px;
+      padding: 5px 12px;
       border-radius: 30px;
       font-weight: 600;
       font-size: 14px;
@@ -199,17 +193,15 @@
       transition: var(--transition);
     }
     
-    .lang-btn:hover,
-    .lang-btn:active {
-      background: rgba(212, 175, 55, 0.2);
-      transform: scale(1.05);
+    .lang-btn:hover {
+      background: rgba(255, 255, 255, 0.2);
     }
     
     /* الهيدر */
     .header {
-      background: linear-gradient(135deg, rgba(18, 18, 18, 0.95) 0%, rgba(0, 0, 0, 0.95) 100%);
+      background: linear-gradient(135deg, var(--dark-bg) 0%, #000 100%);
       text-align: center;
-      padding: 30px 20px;
+      padding: 30px 15px;
       position: relative;
       overflow: hidden;
       border-bottom: 2px solid var(--gold-primary);
@@ -234,9 +226,9 @@
     }
     
     h1 {
-      font-size: 28px;
+      font-size: 26px;
       font-weight: 800;
-      margin-bottom: 10px;
+      margin-bottom: 8px;
       color: var(--gold-light);
       text-shadow: 0 2px 4px rgba(0,0,0,0.5);
     }
@@ -246,18 +238,17 @@
       color: rgba(255, 255, 255, 0.8);
       max-width: 600px;
       margin: 0 auto 15px;
-      line-height: 1.6;
     }
     
     .version-badge {
       display: inline-block;
-      background: rgba(212, 175, 55, 0.2);
+      background: rgba(255, 255, 255, 0.1);
       color: var(--gold-light);
-      padding: 8px 15px;
+      padding: 5px 12px;
       border-radius: 20px;
       font-weight: 600;
-      font-size: 14px;
-      margin-top: 10px;
+      font-size: 13px;
+      margin-top: 8px;
       border: 1px solid var(--gold-primary);
     }
     
@@ -285,53 +276,50 @@
     /* بطاقة التطبيق */
     .app-card {
       background: rgba(30, 30, 30, 0.8);
-      border-radius: var(--border-radius);
+      border-radius: 18px;
       overflow: hidden;
       box-shadow: var(--shadow);
       text-align: center;
-      padding: 25px 20px;
+      padding: 25px;
       display: flex;
       flex-direction: column;
       align-items: center;
       border: 2px solid var(--gold-primary);
-      position: relative;
     }
     
     .app-logo-container {
       position: relative;
-      margin-bottom: 25px;
+      margin-bottom: 20px;
     }
     
     .app-logo {
-      width: 140px;
-      height: 140px;
+      width: 130px;
+      height: 130px;
       border-radius: 25px;
-      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
       border: 4px solid var(--gold-primary);
       position: relative;
       z-index: 2;
-      object-fit: cover;
     }
     
     .app-logo-bg {
       position: absolute;
-      top: -15px;
-      left: -15px;
-      width: 170px;
-      height: 170px;
+      top: -12px;
+      left: -12px;
+      width: 154px;
+      height: 154px;
       background: radial-gradient(circle, var(--gold-light), var(--gold-primary));
       border-radius: 35px;
       z-index: 1;
-      opacity: 0.4;
-      filter: blur(15px);
-      animation: float 3s ease-in-out infinite;
+      opacity: 0.7;
+      filter: blur(12px);
     }
     
     .app-title {
-      font-size: 24px;
+      font-size: 22px;
       font-weight: 800;
       color: var(--gold-light);
-      margin-bottom: 10px;
+      margin-bottom: 8px;
     }
     
     .app-description {
@@ -345,46 +333,42 @@
       display: flex;
       justify-content: center;
       gap: 15px;
-      margin-bottom: 25px;
+      margin-bottom: 20px;
       flex-wrap: wrap;
-      width: 100%;
     }
     
     .meta-item {
       display: flex;
       flex-direction: column;
       align-items: center;
-      min-width: 90px;
-      padding: 12px;
-      border-radius: var(--border-radius-sm);
+      min-width: 80px;
+      padding: 10px;
+      border-radius: 10px;
       background: rgba(212, 175, 55, 0.1);
-      flex: 1;
-      max-width: 120px;
     }
     
     .meta-icon {
-      font-size: 20px;
+      font-size: 18px;
       color: var(--gold-light);
-      margin-bottom: 8px;
+      margin-bottom: 5px;
     }
     
     .meta-value {
       font-weight: 700;
-      font-size: 16px;
+      font-size: 15px;
       color: var(--text-light);
     }
     
     .meta-label {
       font-size: 13px;
       color: var(--text-gray);
-      margin-top: 5px;
     }
     
-    /* زر التحميل */
+    /* زر التحميل - تم التعديل هنا */
     .download-box {
       width: 100%;
-      max-width: 400px;
-      margin: 20px auto 0;
+      max-width: 380px;
+      margin: 15px auto;
     }
     
     .file-box {
@@ -392,34 +376,42 @@
       align-items: center;
       background: linear-gradient(135deg, #FFD700, #D4AF37);
       color: #000;
-      padding: 18px 20px;
-      border-radius: var(--border-radius-sm);
-      box-shadow: 0 5px 20px rgba(212, 175, 55, 0.4);
+      padding: 18px;
+      border-radius: 14px;
+      box-shadow: 0 5px 15px rgba(212, 175, 55, 0.5);
       text-decoration: none;
       transition: var(--transition);
       position: relative;
       overflow: hidden;
       border: 2px solid #FFD700;
       font-weight: 700;
-      cursor: pointer;
-      width: 100%;
     }
     
-    .file-box:hover,
-    .file-box:active {
+    .file-box:hover {
       transform: translateY(-4px);
-      box-shadow: 0 8px 25px rgba(212, 175, 55, 0.6);
+      box-shadow: 0 8px 20px rgba(212, 175, 55, 0.7);
       background: linear-gradient(135deg, #FFD700, #FFC400);
+    }
+    
+    .file-box::after {
+      content: "";
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(circle, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0) 70%);
+      transform: rotate(30deg);
+      pointer-events: none;
     }
     
     .file-box img {
       width: 55px;
       height: 55px;
-      margin-left: 15px;
-      border-radius: 12px;
+      margin-right: 12px;
+      border-radius: 10px;
       background: rgba(255, 255, 255, 0.2);
-      padding: 8px;
-      flex-shrink: 0;
+      padding: 7px;
     }
     
     .file-box .text {
@@ -432,7 +424,7 @@
     .file-box .title {
       font-weight: 800;
       font-size: 19px;
-      margin-bottom: 5px;
+      margin-bottom: 3px;
       color: #000;
     }
     
@@ -445,25 +437,23 @@
     
     .file-box .download-icon {
       font-size: 24px;
-      margin-right: 5px;
+      margin-right: 8px;
       color: #000;
-      flex-shrink: 0;
     }
     
     /* العد التنازلي */
     .countdown-box {
-      background: rgba(30, 30, 30, 0.9);
-      padding: 18px;
-      margin-top: 20px;
-      border-radius: var(--border-radius-sm);
-      font-size: 18px;
+      background: linear-gradient(135deg, var(--dark-bg), #000);
+      padding: 16px;
+      margin-top: 18px;
+      border-radius: 14px;
+      font-size: 17px;
       font-weight: 700;
       text-align: center;
       color: var(--gold-light);
-      box-shadow: var(--shadow);
+      box-shadow: 0 3px 8px rgba(0,0,0,0.3);
       display: none;
       border: 2px solid var(--gold-primary);
-      animation: pulse 2s infinite;
     }
     
     /* زر التنزيل النهائي */
@@ -471,10 +461,10 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 10px;
+      gap: 8px;
       background: linear-gradient(135deg, var(--gold-primary), var(--gold-secondary));
       color: white;
-      padding: 18px 30px;
+      padding: 16px 30px;
       font-size: 18px;
       font-weight: 700;
       text-align: center;
@@ -482,41 +472,52 @@
       border-radius: 50px;
       cursor: pointer;
       text-decoration: none;
-      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.6);
+      box-shadow: 0 5px 12px rgba(0, 0, 0, 0.6);
       transition: var(--transition);
       width: 100%;
-      max-width: 400px;
+      max-width: 380px;
       margin: 25px auto 0;
       position: relative;
       overflow: hidden;
       border: 2px solid var(--gold-dark);
     }
     
-    .download-btn:hover,
-    .download-btn:active {
+    .download-btn:hover {
       transform: translateY(-4px);
-      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.8);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
       background: linear-gradient(135deg, var(--gold-light), var(--gold-primary));
+    }
+    
+    .download-btn::after {
+      content: "";
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 70%);
+      transform: rotate(30deg);
+      pointer-events: none;
     }
     
     /* ميزات التطبيق */
     .features-card {
       background: rgba(30, 30, 30, 0.8);
-      border-radius: var(--border-radius);
+      border-radius: 18px;
       overflow: hidden;
       box-shadow: var(--shadow);
-      padding: 25px 20px;
+      padding: 25px;
       border: 2px solid var(--gold-primary);
     }
     
     .section-title {
-      font-size: 24px;
+      font-size: 22px;
       font-weight: 800;
       color: var(--gold-light);
       text-align: center;
-      margin-bottom: 30px;
+      margin-bottom: 25px;
       position: relative;
-      padding-bottom: 15px;
+      padding-bottom: 12px;
     }
     
     .section-title::after {
@@ -525,7 +526,7 @@
       bottom: 0;
       left: 50%;
       transform: translateX(-50%);
-      width: 80px;
+      width: 70px;
       height: 3px;
       background: linear-gradient(90deg, var(--gold-light), var(--gold-primary));
       border-radius: 2px;
@@ -533,51 +534,48 @@
     
     .features-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
       gap: 20px;
     }
     
     .feature-item {
       display: flex;
-      gap: 15px;
-      padding: 20px;
-      border-radius: var(--border-radius-sm);
+      gap: 12px;
+      padding: 18px;
+      border-radius: 14px;
       background: rgba(40, 40, 40, 0.8);
       transition: var(--transition);
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      align-items: flex-start;
+      border: 1px solid #333;
     }
     
     .feature-item:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 8px 20px rgba(0,0,0,0.4);
-      background: rgba(50, 50, 50, 0.9);
+      transform: translateY(-4px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      background: rgba(50, 50, 50, 0.8);
       border-color: var(--gold-primary);
     }
     
     .feature-icon {
-      width: 50px;
-      height: 50px;
-      min-width: 50px;
-      border-radius: 12px;
+      width: 45px;
+      height: 45px;
+      min-width: 45px;
+      border-radius: 10px;
       background: linear-gradient(135deg, var(--gold-primary), var(--gold-secondary));
       display: flex;
       align-items: center;
       justify-content: center;
       color: white;
-      font-size: 22px;
-      box-shadow: 0 4px 10px rgba(212, 175, 55, 0.3);
+      font-size: 20px;
     }
     
     .feature-content {
       text-align: right;
-      flex: 1;
     }
     
     .feature-title {
       font-weight: 700;
-      font-size: 17px;
-      margin-bottom: 8px;
+      font-size: 16px;
+      margin-bottom: 6px;
       color: var(--gold-light);
     }
     
@@ -589,10 +587,10 @@
     
     /* الفوتر */
     .footer {
-      background: rgba(10, 10, 10, 0.95);
+      background: linear-gradient(135deg, #0a0a0a 0%, #000 100%);
       color: #888;
-      padding: 40px 20px 25px;
-      margin-top: 50px;
+      padding: 40px 15px 25px;
+      margin-top: 40px;
       border-top: 2px solid var(--gold-primary);
     }
     
@@ -601,7 +599,7 @@
       margin: 0 auto;
       display: grid;
       grid-template-columns: 1fr;
-      gap: 40px;
+      gap: 35px;
     }
     
     @media (min-width: 768px) {
@@ -617,46 +615,44 @@
       color: var(--gold-light);
       font-size: 22px;
       font-weight: 700;
-      margin-bottom: 20px;
+      margin-bottom: 15px;
     }
     
     .footer-desc {
       font-size: 15px;
       line-height: 1.7;
-      margin-bottom: 25px;
+      margin-bottom: 20px;
       color: var(--text-gray);
     }
     
     .footer-links {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-      gap: 15px;
-      margin-top: 20px;
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      gap: 12px;
+      margin-top: 18px;
     }
     
     .footer-links a {
       text-decoration: none;
-      color: #aaa;
+      color: #888;
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 7px;
       transition: var(--transition);
       font-size: 14px;
-      padding: 8px 0;
     }
     
     .footer-links a:hover {
       color: var(--gold-light);
-      transform: translateX(-5px);
     }
     
     .footer-section-title {
-      font-size: 20px;
+      font-size: 18px;
       font-weight: 700;
       color: var(--gold-light);
-      margin-bottom: 25px;
+      margin-bottom: 20px;
       position: relative;
-      padding-bottom: 10px;
+      padding-bottom: 8px;
     }
     
     .footer-section-title::after {
@@ -664,24 +660,24 @@
       position: absolute;
       bottom: 0;
       right: 0;
-      width: 60px;
+      width: 45px;
       height: 3px;
       background: var(--gold-primary);
     }
     
     .copyright {
       text-align: center;
-      padding-top: 30px;
-      margin-top: 30px;
+      padding-top: 25px;
+      margin-top: 25px;
       border-top: 1px solid rgba(255,255,255,0.1);
-      font-size: 14px;
-      color: #888;
+      font-size: 13px;
+      color: #666;
     }
     
     .disclaimer {
-      font-size: 13px;
-      color: #777;
-      margin-top: 15px;
+      font-size: 12px;
+      color: #666;
+      margin-top: 12px;
       line-height: 1.7;
       max-width: 800px;
       margin-left: auto;
@@ -697,63 +693,36 @@
     
     @keyframes float {
       0% { transform: translateY(0px); }
-      50% { transform: translateY(-10px); }
+      50% { transform: translateY(-8px); }
       100% { transform: translateY(0px); }
     }
     
     /* تحسينات للجوال */
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
       h1 {
-        font-size: 26px;
-      }
-      
-      .subtitle {
-        font-size: 15px;
-        padding: 0 10px;
+        font-size: 24px;
       }
       
       .app-logo {
-        width: 120px;
-        height: 120px;
+        width: 110px;
+        height: 110px;
       }
       
       .app-logo-bg {
-        width: 150px;
-        height: 150px;
+        width: 134px;
+        height: 134px;
       }
       
       .app-title {
-        font-size: 22px;
+        font-size: 20px;
       }
       
       .app-description {
         font-size: 14px;
-        padding: 0 5px;
-      }
-      
-      .meta-item {
-        min-width: 80px;
-        padding: 10px;
-      }
-      
-      .features-grid {
-        grid-template-columns: 1fr;
-        gap: 15px;
-      }
-      
-      .feature-item {
-        padding: 18px;
-      }
-      
-      .feature-icon {
-        width: 45px;
-        height: 45px;
-        min-width: 45px;
-        font-size: 20px;
       }
       
       .feature-title {
-        font-size: 16px;
+        font-size: 15px;
       }
       
       .feature-desc {
@@ -761,12 +730,12 @@
       }
       
       .download-btn {
-        font-size: 17px;
-        padding: 16px 25px;
+        font-size: 16px;
+        padding: 14px 25px;
       }
       
       .section-title {
-        font-size: 22px;
+        font-size: 20px;
       }
       
       .footer-logo {
@@ -775,75 +744,6 @@
       
       .footer-desc {
         font-size: 14px;
-      }
-      
-      .footer-links {
-        grid-template-columns: 1fr;
-      }
-    }
-    
-    @media (max-width: 480px) {
-      .top-bar {
-        padding: 12px 15px;
-      }
-      
-      .logo {
-        font-size: 16px;
-      }
-      
-      .lang-btn {
-        padding: 6px 12px;
-        font-size: 13px;
-      }
-      
-      h1 {
-        font-size: 24px;
-      }
-      
-      .header {
-        padding: 25px 15px;
-      }
-      
-      .app-logo {
-        width: 100px;
-        height: 100px;
-      }
-      
-      .app-logo-bg {
-        width: 130px;
-        height: 130px;
-      }
-      
-      .app-card,
-      .features-card {
-        padding: 20px 15px;
-      }
-      
-      .file-box {
-        padding: 15px;
-      }
-      
-      .file-box img {
-        width: 50px;
-        height: 50px;
-        margin-left: 10px;
-      }
-      
-      .file-box .title {
-        font-size: 17px;
-      }
-      
-      .meta-item {
-        min-width: 70px;
-        padding: 8px;
-      }
-      
-      .meta-value {
-        font-size: 15px;
-      }
-      
-      .meta-label {
-        font-size: 12px;
       }
     }
     
@@ -858,68 +758,121 @@
       right: 15px;
       background: linear-gradient(135deg, var(--gold-primary), var(--gold-secondary));
       color: white;
-      padding: 6px 15px;
+      padding: 5px 15px;
       border-radius: 20px;
       font-weight: 700;
       font-size: 12px;
       transform: rotate(5deg);
       z-index: 10;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
     }
     
-    /* تحسينات اللمس */
-    @media (hover: none) and (pointer: coarse) {
-      .file-box:hover,
-      .download-btn:hover,
-      .feature-item:hover,
-      .lang-btn:hover {
-        transform: none;
-      }
-      
-      .file-box:active,
-      .download-btn:active,
-      .feature-item:active,
-      .lang-btn:active {
-        transform: scale(0.98);
-      }
-    }
-    
-    /* تحسينات للأجهزة ذات الشاشات الصغيرة */
-    @media (max-width: 350px) {
-      .app-meta {
-        flex-direction: column;
-        align-items: center;
-      }
-      
-      .meta-item {
-        max-width: 100%;
-        width: 100%;
-        margin-bottom: 10px;
-      }
-      
-      .file-box {
-        flex-direction: column;
-        text-align: center;
-      }
-      
-      .file-box img {
-        margin: 0 0 10px 0;
-      }
-      
-      .file-box .text {
-        text-align: center;
-      }
-    }
-    
-    /* تحسينات للأداء */
-    .lazy-load {
-      opacity: 0;
-      transition: opacity 0.3s ease;
-    }
-    
-    .lazy-loaded {
-      opacity: 1;
-    }
+        /* === إعلانات أدسنس - نسخة مبسطة === */
+
+/* إعلان الرأس */
+.ads-header {
+  margin: 20px auto 30px;
+  max-width: 728px;
+  padding: 0 15px;
+  text-align: center;
+}
+
+.ads-label {
+  font-size: 12px;
+  color: var(--text-gray);
+  margin-bottom: 8px;
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* إعلان داخل المحتوى */
+.ads-inline {
+  margin: 30px auto;
+  max-width: 600px;
+  text-align: center;
+  padding: 15px;
+  background: rgba(30, 30, 30, 0.5);
+  border-radius: 12px;
+  border: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+/* إعلان الفوتر */
+.ads-footer {
+  margin: 30px auto 0;
+  max-width: 728px;
+  text-align: center;
+  padding: 0 15px;
+}
+
+/* إعلان موبايل */
+.ads-mobile {
+  display: none;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* حاوية الإعلان */
+.ad-container {
+  display: block;
+  text-align: center;
+  min-height: 90px;
+  background: rgba(40, 40, 40, 0.3);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* تحسينات للجوال */
+@media (max-width: 768px) {
+  .ads-header {
+    max-width: 320px;
+  }
+  
+  .ads-footer {
+    max-width: 320px;
+  }
+  
+  .ads-mobile {
+    display: block;
+    max-width: 320px;
+  }
+  
+  .ads-inline {
+    max-width: 320px;
+  }
+  
+  /* طريقة بسيطة لمركزة الإعلانات */
+  .ad-container {
+    text-align: center;
+  }
+  
+  .ad-container ins {
+    display: inline-block !important;
+    margin: 0 auto !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .ads-header,
+  .ads-footer,
+  .ads-inline {
+    max-width: 300px;
+  }
+  
+  .ads-mobile {
+    max-width: 300px;
+  }
+}
+
+/* الحل الأكيد لمركزة إعلانات أدسنس */
+.ad-container {
+  text-align: center;
+}
+
+.ad-container ins {
+  display: inline-block !important;
+  margin: 0 auto !important;
+  text-align: center;
+}
   </style>
 </head>
 
@@ -946,8 +899,8 @@
     </a>
     
     <div class="lang-switcher">
-      <button class="lang-btn" onclick="setLanguage('ar')" aria-label="Switch to Arabic">🇸🇦 عربي</button>
-      <button class="lang-btn" onclick="setLanguage('en')" aria-label="Switch to English">🇺🇸 English</button>
+      <button class="lang-btn" onclick="setLanguage('ar')">🇸🇦 عربي</button>
+      <button class="lang-btn" onclick="setLanguage('en')">🇺🇸 English</button>
     </div>
   </div>
 
@@ -955,7 +908,7 @@
   <header class="header">
     <div class="header-content">
       <h1 data-lang="ar">مساعد التيك توك</h1>
-      <h1 data-lang="en">Multi TikTok Plugin</h1>
+      <h1 data-lang="en">Multi Plugin</h1>
       
       <p class="subtitle" data-lang="ar">نسخة فاخرة من تطبيق تيك توك مع ميزات متقدمة للمستخدمين والمؤثرين</p>
       <p class="subtitle" data-lang="en">Premium version of TikTok with advanced features for users and influencers</p>
@@ -964,6 +917,8 @@
       <div class="version-badge" data-lang="en">Golden Version v3.0</div>
     </div>
   </header>
+  
+
 
   <!-- المحتوى الرئيسي -->
   <div class="main-content">
@@ -975,11 +930,11 @@
         
         <div class="app-logo-container">
           <div class="app-logo-bg"></div>
-          <img src="plugin.png" alt="مساعد التيك توك" class="app-logo lazy-load" onload="this.classList.add('lazy-loaded')">
+          <img src="plugin.png" alt="مساعد التيك توك" class="app-logo">
         </div>
         
         <h2 class="app-title" data-lang="ar">مساعد التيك توك</h2>
-        <h2 class="app-title" data-lang="en">Multi TikTok Plugin</h2>
+        <h2 class="app-title" data-lang="en">Multi Plugin</h2>
         
         <p class="app-description" data-lang="ar">
           النسخة الذهبية الفاخرة من تطبيق تيك توك، تقدم تجربة استثنائية مع ميزات متقدمة مثل تحميل الفيديوهات بدون علامة مائية، إزالة الإعلانات، دعم 4K، والمزيد!
@@ -1010,12 +965,14 @@
           </div>
         </div>
         
-
+        
+  
+        
         <div class="download-box">
-          <a href="javascript:void(0);" onclick="startCountdown()" id="fileInfoBox" class="file-box" role="button" aria-label="Start download process">
-            <img src="app_icon.png" alt="App Icon" class="lazy-load" onload="this.classList.add('lazy-loaded')">
+          <a href="javascript:void(0);" onclick="startCountdown()" id="fileInfoBox" class="file-box">
+            <img src="app_icon.png" alt="icon">
             <div class="text">
-              <div class="title">Multi_TikTok_Plugin_3.0</div>
+              <div class="title">TikTok_Asia_v3.0</div>
               <div class="size" data-lang="ar">اضغط للتحميل</div>
               <div class="size" data-lang="en">Click to download</div>
             </div>
@@ -1025,8 +982,7 @@
           <div id="countdownBox" class="countdown-box"></div>
 
           <a href="https://dlll.apkm.app/TikTok/plugin/3.0/Multi_TikTok_Plugin_3.0.apk" 
-             id="finalDownloadBox" class="download-btn" style="display: none;"
-             aria-label="Download Multi TikTok Plugin 3.0">
+             id="finalDownloadBox" class="download-btn" style="display: none;">
             <i class="fas fa-download"></i>
             <span data-lang="ar">تنزيل النسخة الذهبية</span>
             <span data-lang="en">Download Gold Edition</span>
@@ -1034,10 +990,14 @@
         </div>
       </div>
       
+    
+      
       <!-- ميزات التطبيق -->
       <div class="features-card">
         <h2 class="section-title" data-lang="ar">الميزات الذهبية</h2>
         <h2 class="section-title" data-lang="en">Gold Features</h2>
+        
+ 
         
         <div class="features-grid">
           <div class="feature-item">
@@ -1103,6 +1063,7 @@
       </div>
     </div>
   </div>
+  
 
   <!-- الفوتر -->
   <footer class="footer">
@@ -1163,16 +1124,14 @@
       let progress = 0;
       const progressBar = document.getElementById('loaderBar');
       const progressInterval = setInterval(() => {
-        progress += Math.random() * 15;
+        progress += Math.random() * 10;
         progressBar.style.width = `${progress}%`;
         
         if (progress >= 100) {
           clearInterval(progressInterval);
-          const loader = document.getElementById('loader');
-          loader.style.opacity = '0';
+          document.getElementById('loader').style.opacity = '0';
           setTimeout(() => {
-            loader.style.display = 'none';
-            document.body.style.overflow = 'auto';
+            document.getElementById('loader').style.display = 'none';
           }, 500);
         }
       }, 100);
@@ -1181,8 +1140,17 @@
       const userLang = navigator.language.startsWith("ar") ? "ar" : "en";
       setLanguage(userLang);
       
-      // تحسين تجربة اللمس
-      document.addEventListener('touchstart', function() {}, {passive: true});
+      // تحميل إعلانات أدسنس بعد تحميل الصفحة
+      setTimeout(() => {
+        try {
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        } catch (e) {
+          console.log('Error loading ads:', e);
+        }
+      }, 2000);
+      
+      // إصلاح محاذاة الإعلانات بعد التحميل
+      setTimeout(fixAdAlignment, 2500);
     });
 
     let lang = 'ar';
@@ -1198,75 +1166,133 @@
       document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
       document.documentElement.lang = lang;
       
-      // حفظ اللغة المفضلة
-      localStorage.setItem('preferredLang', lang);
+      // تحديث تسميات الإعلانات
+      updateAdLabels();
     }
     
-    // استرجاع اللغة المفضلة من localStorage
-    const savedLang = localStorage.getItem('preferredLang');
-    if (savedLang) {
-      setLanguage(savedLang);
+    // دالة لتحديث تسميات الإعلانات
+    function updateAdLabels() {
+      document.querySelectorAll('.ads-label').forEach(label => {
+        label.style.display = label.getAttribute('data-lang') === lang ? 'block' : 'none';
+      });
     }
 
     function startCountdown() {
       document.getElementById("fileInfoBox").style.display = "none";
-      const countdownBox = document.getElementById("countdownBox");
-      const finalBtn = document.getElementById("finalDownloadBox");
+      var counter = 6;
+      var countdownBox = document.getElementById("countdownBox");
+      var finalBtn = document.getElementById("finalDownloadBox");
 
       countdownBox.style.display = "block";
-      let counter = 5;
-      
-      const updateCountdown = () => {
+      countdownBox.innerHTML = lang === "ar"
+        ? `<i class="fas fa-spinner fa-spin"></i> جاري التحضير للتنزيل... ${counter}`
+        : `<i class="fas fa-spinner fa-spin"></i> Preparing download... ${counter}`;
+
+      var interval = setInterval(function () {
+        counter--;
         countdownBox.innerHTML = lang === "ar"
           ? `<i class="fas fa-spinner fa-spin"></i> جاري التحضير للتنزيل... ${counter}`
           : `<i class="fas fa-spinner fa-spin"></i> Preparing download... ${counter}`;
 
         if (counter === 0) {
+          clearInterval(interval);
           countdownBox.style.display = "none";
           finalBtn.style.display = "flex";
-          // تمرير المستخدم إلى الزر النهائي للتحسين UX
-          setTimeout(() => {
-            finalBtn.scrollIntoView({ behavior: 'smooth', block: 'center' });
-          }, 100);
-        } else {
-          counter--;
-          setTimeout(updateCountdown, 1000);
         }
-      };
-      
-      updateCountdown();
+      }, 1000);
     }
     
-    // تحسينات للأداء على الجوال
-    let lastScrollTop = 0;
-    const topBar = document.querySelector('.top-bar');
-    
-    window.addEventListener('scroll', function() {
-      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    // دالة لإصلاح محاذاة إعلانات أدسنس
+    function fixAdAlignment() {
+      const isMobile = window.innerWidth <= 768;
       
-      if (scrollTop > lastScrollTop && scrollTop > 100) {
-        // التمرير لأسفل
-        topBar.style.transform = 'translateY(-100%)';
-      } else {
-        // التمرير لأعلى
-        topBar.style.transform = 'translateY(0)';
+      // إصلاح محاذاة جميع الإعلانات
+      document.querySelectorAll('.ad-container ins').forEach(ad => {
+        // تطبيق الأنماط الأساسية
+        ad.style.margin = '0 auto';
+        ad.style.display = 'block';
+        ad.style.textAlign = 'center';
+        
+        // تعديل الحجم للجوال
+        if (isMobile) {
+          const container = ad.closest('.ad-container');
+          if (container) {
+            // تحديد حجم الإعلان بناءً على مكانه
+            if (container.closest('.ads-header') || container.closest('.ads-footer')) {
+              ad.style.width = '320px';
+              ad.style.height = '50px';
+            } else if (container.closest('.ads-inline')) {
+              ad.style.width = '300px';
+              ad.style.height = '250px';
+            } else if (container.closest('.ads-mobile')) {
+              ad.style.width = '320px';
+              ad.style.height = '50px';
+            }
+          }
+        }
+      });
+      
+      // التحكم في عرض إعلان الجوال
+      const mobileAds = document.querySelector('.ads-mobile');
+      if (mobileAds) {
+        mobileAds.style.display = isMobile ? 'block' : 'none';
       }
       
-      lastScrollTop = scrollTop;
+      // إضافة padding إضافي للإعلانات على الجوال لتحسين المحاذاة
+      if (isMobile) {
+        document.querySelectorAll('.ads-inline, .ads-header, .ads-footer').forEach(adContainer => {
+          adContainer.style.padding = '0 10px';
+        });
+      }
+    }
+    
+    // دالة لاكتشاف حجم الشاشة
+    function detectScreenSize() {
+      fixAdAlignment(); // نستدعي نفس الدالة
+    }
+    
+    // تشغيل الدوال عند الأحداث
+    window.addEventListener('load', () => {
+      // تأخير بسيط لضمان تحميل الإعلانات
+      setTimeout(fixAdAlignment, 1000);
     });
     
-    // تحسين تحميل الصور
-    function lazyLoadImages() {
-      const images = document.querySelectorAll('img.lazy-load');
-      images.forEach(img => {
-        if (img.getBoundingClientRect().top < window.innerHeight + 100) {
-          img.src = img.dataset.src;
+    window.addEventListener('resize', detectScreenSize);
+    
+    // تشغيل إضافي بعد 3 ثوان للتأكد
+    setTimeout(fixAdAlignment, 3000);
+    
+    // حل خاص لمشكلة محاذاة أدسنس النهائي
+    function finalAdFix() {
+      // إعادة تطبيق الأنماط بعد فترة للتأكد
+      document.querySelectorAll('.ad-container').forEach(container => {
+        container.style.textAlign = 'center';
+        
+        const ad = container.querySelector('ins');
+        if (ad) {
+          ad.style.margin = '0 auto';
+          ad.style.display = 'block';
+          
+          // إذا كان الإعلان محملاً بالفعل
+          if (ad.offsetHeight > 0) {
+            // مركزة الإعلان داخل الحاوية
+            const containerWidth = container.offsetWidth;
+            const adWidth = ad.offsetWidth;
+            
+            if (adWidth > 0) {
+              const marginLeft = (containerWidth - adWidth) / 2;
+              ad.style.marginLeft = `${marginLeft}px`;
+              ad.style.marginRight = `${marginLeft}px`;
+            }
+          }
         }
       });
     }
     
-    window.addEventListener('scroll', lazyLoadImages);
-    lazyLoadImages(); // تحميل الصور المرئية مباشرة
+    // تشغيل الحل النهائي عدة مرات للتأكد
+    [4000, 6000, 10000].forEach(time => {
+      setTimeout(finalAdFix, time);
+    });
   </script>
 </body>
 </html>
